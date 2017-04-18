@@ -1,0 +1,28 @@
+что где когда
+дежурна¤ часть
+каинго
+http://ru.craft-the-world.wikia.com/wiki/%D0%97%D0%BB%D0%BE%D0%B1%D0%BE%D0%B3%D0%BB%D0%B0%D0%B7
+Ѕретер онлайн
+http://kinogo-2016.net/2854-realnye-pacany-2016.html
+http://kinogo-2016.net/1626-film_hardkor_2016_hd.html
+http://kinogo-2016.net/2650-pushkin__1_sezon.html
+
+https://update-api.1c.ru/update-platform/ws/platform?wsdl
+
+http://platform.api.update.company1c.com
+
+PlatformUpdateInfoRequest
+
+https://update-api.1c.ru/update-platform/ws/platform?wsdl
+
+МестоположениеWSDL	https://update-api.1c.ru/update-platform/ws/platform?wsdl
+URIПространстваИмен		"http://platform.api.update.company1c.com",
+ИмяСервиса		"UpdatePlatformApiImplService",
+ИмяТочкиПодключения		"UpdatePlatformApiImplPort",
+
+use fns
+SELECT o.kod, o.name, o.sale_spb, o.kol_spb, l.name, l.boss, l.director
+FROM okved100 AS o
+  LEFT JOIN kontr AS l
+ON o.inn1_spb=l.inn
+ORDER BY o.sale_spb DESC
